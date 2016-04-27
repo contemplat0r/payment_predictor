@@ -76,6 +76,7 @@ for i, (train_indices, test_indices) in enumerate(cross_validation.KFold(depende
         score = crossvalidation_test_score
         best_mlp = payment_mlp
 
+print 'best crossvalidation score: ', score
 
 print 'real data score: ', best_mlp.score(real_x, real_y)
 pickle.dump(best_mlp, open('best_mlp.pkl', 'wb'))
