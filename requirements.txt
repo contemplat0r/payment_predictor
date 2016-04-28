@@ -1,0 +1,6 @@
+ipython==4.0.0
+notebook==4.1.0
+numpy==1.10.1
+pandas==0.17.0
+scikit-learn==0.17.1
+scikit-neuralnetwork==0.7
